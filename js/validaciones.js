@@ -14,8 +14,7 @@ export const validar = (input) => {
         input.parentElement.querySelector(".input-message-error").innerHTML = "";
     } else {
         input.parentElement.classList.add("input-container--invalid");
-        input.parentElement.querySelector(".input-message-error").innerHTML =
-            mostrarMensajeDeError(tipoDeInput, input);
+        input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeinput,input);
     }
 }
 
